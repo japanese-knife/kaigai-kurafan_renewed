@@ -1,0 +1,35 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 8px;
+  margin: 10px auto 0 auto;
+  width: 100%;
+  height: 100px;
+  max-width: 800px;
+}
+
+.buttonText {
+  font-size: 0.9375rem;
+  letter-spacing: 1.2px;
+  font-weight: 600;
+  font-family: "Noto Sans JP", Arial, sans-serif;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 769px) {
+  .grid {
+    max-width: 1000px;
+  }
+  
+  .buttonText {
+    font-size: 1.2rem;
+  }
+}

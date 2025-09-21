@@ -1,0 +1,44 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 80%;
+  align-items: center;
+  padding: 120px 0;
+}
+
+.container {
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  row-gap: 32px;
+}
+
+/* iPad */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .section {
+    width: 90%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .section {
+    padding: 64px 0;
+    width: 85%;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 0px;
+    row-gap: 20px;
+  }
+}

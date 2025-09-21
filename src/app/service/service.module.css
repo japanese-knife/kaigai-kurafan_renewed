@@ -1,0 +1,335 @@
+.container {
+  min-height: 100vh;
+  background-color: #F5FBFE;
+  margin-top: 60px;
+}
+
+.heroSection {
+  position: relative;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #383E86;
+  overflow: hidden;
+}
+
+.heroContent {
+  text-align: center;
+  z-index: 2;
+  color: white;
+}
+
+.heroTitle {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.heroSubtitle {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: 1px;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 80px 20px;
+}
+
+.mainServicesSection {
+  margin-bottom: 120px;
+}
+
+.servicesGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.serviceCard {
+  background: white;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  border-top: 4px solid #43CEA2;
+  position: relative;
+  overflow: hidden;
+}
+
+.serviceCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(67, 206, 162, 0.1), transparent);
+  transition: left 0.6s ease;
+}
+
+.serviceCard:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 12px 32px rgba(67, 206, 162, 0.2);
+  border-top-color: #185A9D;
+}
+
+.serviceCard:hover::before {
+  left: 100%;
+}
+
+.serviceIconWrapper {
+  width: 100px;
+  height: 100px;
+  background: linear-gradient(135deg, #F5FBFE, #E3F2FD);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 24px auto;
+  border: 3px solid #43CEA2;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.serviceCard:hover .serviceIconWrapper {
+  transform: rotate(360deg) scale(1.1);
+  border-color: #185A9D;
+  box-shadow: 0 8px 20px rgba(67, 206, 162, 0.3);
+}
+
+.serviceTitle {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #383E86;
+  margin-bottom: 16px;
+  transition: color 0.3s ease;
+}
+
+.serviceCard:hover .serviceTitle {
+  color: #185A9D;
+}
+
+.serviceDescription {
+  font-size: 1rem;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  transition: color 0.3s ease;
+}
+
+.serviceCard:hover .serviceDescription {
+  color: #555;
+}
+
+.serviceFeatures {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.serviceFeatures li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  transition: all 0.3s ease;
+  transform: translateX(0);
+}
+
+.serviceFeatures li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #43CEA2;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.serviceCard:hover .serviceFeatures li {
+  transform: translateX(5px);
+  color: #555;
+}
+
+.serviceCard:hover .serviceFeatures li::before {
+  color: #185A9D;
+  transform: scale(1.2);
+}
+
+.featuresSection {
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.featuresGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 32px;
+  margin-top: 40px;
+}
+
+.featureCard {
+  background: white;
+  padding: 32px 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.featureCard::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(to right, #43CEA2, #185A9D);
+  transition: height 0.4s ease;
+}
+
+.featureCard:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 16px 40px rgba(67, 206, 162, 0.15);
+}
+
+.featureCard:hover::before {
+  height: 8px;
+}
+
+.featureIcon {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(135deg, #43CEA2, #185A9D);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px auto;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+}
+
+.featureCard:hover .featureIcon {
+  transform: scale(1.15) rotate(5deg);
+  box-shadow: 0 8px 20px rgba(67, 206, 162, 0.4);
+}
+
+.featureIcon::after {
+  content: '';
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  right: -5px;
+  bottom: -5px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  background: linear-gradient(135deg, #43CEA2, #185A9D) border-box;
+  mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.featureCard:hover .featureIcon::after {
+  opacity: 1;
+}
+
+.featureNumber {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: transform 0.3s ease;
+}
+
+.featureCard:hover .featureNumber {
+  transform: scale(1.1);
+}
+
+.featureTitle {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #383E86;
+  margin-bottom: 12px;
+  transition: all 0.3s ease;
+}
+
+.featureCard:hover .featureTitle {
+  color: #185A9D;
+  transform: translateY(-2px);
+}
+
+.featureDescription {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.6;
+  margin: 0;
+  transition: color 0.3s ease;
+}
+
+.featureCard:hover .featureDescription {
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  .heroTitle {
+    font-size: 2rem;
+  }
+
+  .heroSubtitle {
+    font-size: 1rem;
+  }
+
+  .content {
+    padding: 60px 16px;
+  }
+
+  .servicesGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .featuresGrid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .serviceCard {
+    padding: 24px;
+  }
+
+  .serviceTitle {
+    font-size: 1.2rem;
+  }
+
+  .serviceDescription {
+    font-size: 0.9rem;
+  }
+
+  .serviceFeatures li {
+    font-size: 0.85rem;
+  }
+
+  .featureCard {
+    padding: 24px 20px;
+  }
+
+  .featureTitle {
+    font-size: 1.1rem;
+  }
+
+  .featureDescription {
+    font-size: 0.85rem;
+  }
+}

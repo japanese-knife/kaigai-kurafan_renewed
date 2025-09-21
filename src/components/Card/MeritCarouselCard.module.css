@@ -1,0 +1,38 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-family: 'Noto Sans JP', 'Helvetica', 'Arial', sans-serif;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  object-fit: cover;
+}
+
+@media (min-width: 769px) {
+  .card {
+    width: 420px;
+  }
+
+  .image {
+    width: 210px;
+    height: 210px;
+    left: 168px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 280px;
+  }
+
+  .image {
+    width: 140px;
+    height: 140px;
+    left: 112px;
+  }
+} 

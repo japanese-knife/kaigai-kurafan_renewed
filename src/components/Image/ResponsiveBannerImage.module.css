@@ -1,0 +1,15 @@
+.banner-wrapper {
+  position: relative;
+  width: 800px;
+  max-width: 100%;
+  max-height: 450px;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background-color: #eee;
+}
+
+@media (max-width: 800px) {
+  .banner-wrapper {
+    width: 100%;
+  }
+} 

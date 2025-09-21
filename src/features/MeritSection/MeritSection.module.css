@@ -1,0 +1,67 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 100%;
+  align-items: center;
+  margin: 50px 0;
+  padding: 64px 0;
+  height: 525px;
+}
+
+.container {
+  position: relative;
+  width: 80%;
+  margin-top: 16px;
+  left: 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.illustration {
+  width: 30%;
+  max-width: 450px;
+  aspect-ratio: 1.2/1;
+  position: relative;
+  overflow: hidden;
+}
+
+.illustration img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.carouselContainer {
+  position: relative;
+  width: 65%;
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: 32px 0;
+    height: 580px;
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .content {
+    justify-content: center;
+  }
+
+  .illustration {
+    display: none;
+  }
+
+  .carouselContainer {
+    width: 100%;
+  }
+}

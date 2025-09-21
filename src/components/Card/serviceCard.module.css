@@ -1,0 +1,13 @@
+.imageContainer {
+  width: 80%;
+  position: relative;
+  height: auto;
+  aspect-ratio: 1.2/1;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .imageContainer {
+    display: block;
+  }
+} 
