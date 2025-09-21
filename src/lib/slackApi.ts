@@ -3,6 +3,7 @@ export interface MailRequest {
   to: string;
   subject: string;
   content: string;
+  projectLink?: string; // 新規追加：プロジェクトリンク
   notifySlack?: boolean; // 互換のため名称は維持
 }
 
@@ -15,7 +16,7 @@ export interface MailResponse {
 // Google Chat Webhook 送信用（クラス/メソッド名は互換のため据え置き）
 export class SlackApi {
   private webhookUrl: string;
-
+  
   constructor() {
     this.webhookUrl = "https://chat.googleapis.com/v1/spaces/AAQAcPmyy_I/messages?key=AIzaSyDdI0hCZtE6vySjMm-WEfRq3CPzqKqqsHI&token=b6sWbJe0Dc-oonup21GT4rq_NLj3ypf2GH95Udcejro";
     
@@ -30,6 +31,7 @@ export class SlackApi {
     to: string;
     subject: string;
     content: string;
+    projectLink?: string; // 新規追加：プロジェクトリンク
   }): Promise<boolean> {
     try {
       console.log('Sending Google Chat notification...');
@@ -45,11 +47,18 @@ export class SlackApi {
         hour12: false,
       });
 
-      const text =
+      // メッセージ構築
+      let text =
         `*新しいお問い合わせ*\n` +
         `お問い合わせ受け取り日時: ${timestamp}\n` +
-        `メールアドレス: ${input.to}\n\n` +
-        `相談内容詳細:\n${input.content}`;
+        `メールアドレス: ${input.to}\n`;
+
+      // プロジェクトリンクがある場合は追加
+      if (input.projectLink && input.projectLink.trim()) {
+        text += `過去のプロジェクトリンク: ${input.projectLink}\n`;
+      }
+
+      text += `\n相談内容詳細:\n${input.content}`;
 
       const res = await fetch(this.webhookUrl, {
         method: 'POST',
