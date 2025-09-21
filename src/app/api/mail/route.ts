@@ -41,7 +41,7 @@ interface MailRequest {
   to: string;
   subject: string;
   content: string;
-  projectLink?: string;
+  projectLink?: string; // 既存のフィールド
   notifySlack?: boolean;
 }
 
@@ -61,11 +61,18 @@ export async function POST(request: Request) {
     // メール送信を試行
     try {
       console.log('Sending email...');
+      
+      // メール本文にプロジェクトリンクを含める
+      let emailContent = body.content;
+      if (body.projectLink && body.projectLink.trim()) {
+        emailContent += `\n\n過去のプロジェクトリンク:\n${body.projectLink}`;
+      }
+      
       const mailData: MailData = {
         to: body.to,
         subject: body.subject,
-        content: body.content,
-        htmlContent: body.content.replace(/\n/g, '<br>') // 改行をHTMLに変換
+        content: emailContent,
+        htmlContent: emailContent.replace(/\n/g, '<br>') // 改行をHTMLに変換
       };
       
       mailSent = await sendMail(mailData);
