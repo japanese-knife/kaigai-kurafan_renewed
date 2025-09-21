@@ -15,6 +15,7 @@ interface ContactFormData {
   phoneNumber: string;
   email: string;
   others: string;
+  projectLink: string; // 新しいフィールド
   date1: Date | null;
   date2: Date | null;
   date3: Date | null;
@@ -39,6 +40,7 @@ const ContactForm: React.FC<ContactFormProps> = ({
     phoneNumber: "",
     email: "",
     others: "",
+    projectLink: "", // 新しいフィールドの初期化
     date1: null,
     date2: null,
     date3: null,
@@ -169,6 +171,21 @@ const ContactForm: React.FC<ContactFormProps> = ({
             {...datePickerProps}
             placeholderText="第3希望"
           />
+        </div>
+      </div>
+
+      {/* プロジェクトリンク欄（新規追加） */}
+      <div>
+        <div className={styles["contact-label"]}>これまで手がけられたクラウドファンディングプロジェクト</div>
+        <input
+          type="url"
+          placeholder="例 : https://www.kickstarter.com/projects/..."
+          value={formData.projectLink}
+          onChange={(e) => handleInputChange('projectLink', e.target.value)}
+          className={styles["contact-input"]}
+        />
+        <div style={{ color: "#666", fontSize: 12, marginTop: 4 }}>
+          過去に手がけられたプロジェクトのURLがあればご記入ください。
         </div>
       </div>
 
