@@ -15,7 +15,7 @@ interface ContactFormData {
   phoneNumber: string;
   email: string;
   others: string;
-  projectLink: string; // 新しいフィールド
+  projectLink?: string; // 新しいフィールド
   date1: Date | null;
   date2: Date | null;
   date3: Date | null;
