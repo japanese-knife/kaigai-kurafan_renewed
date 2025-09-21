@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  background-color: #F5FBFE;
+  padding: 120px 0;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  width: 90%;
+  max-width: 1200px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 64px 0;
+  }
+  
+  .content {
+    width: 95%;
+    gap: 30px;
+  }
+}
