@@ -2,8 +2,7 @@ import React from 'react';
 import TopBannerCarousel from "@/components/Carousel/TopBannerCarousel";
 // バナー画像の定義
 const bannerImages = [
-  "BANNER1-NEW.webp",
-  "BANNER2-NEW.webp", 
+  "BANNER2-NEW.webp",
   "BANNER3-NEW.webp",
 ];
 
