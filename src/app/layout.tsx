@@ -123,6 +123,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         </noscript>
 
         {children}
+
+        {/* HubSpot Embed Code */}
+        <Script
+          id="hs-script-loader"
+          src="//js.hs-scripts.com/46906111.js"
+          strategy="lazyOnload"
+          async
+          defer
+        />
       </body>
     </html>
   );
