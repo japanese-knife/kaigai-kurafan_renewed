@@ -29,7 +29,7 @@ export default function RootLayout({
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="海外クラファン.com | 株式会社RE-IDEA" />
+        <meta name="twitter:title" content="海外クラファン.com | 海外クラファンの全てを一括代行 | 株式会社RE-IDEA" />
         <meta name="twitter:description" content="海外クラウドファンディングの活用で海外進出をハードル低く実現。海外挑戦の最初の一歩を高コスパで全力サポートいたします。" />
         <meta name="twitter:image" content="/opengraph-image.png" />
         
@@ -43,7 +43,7 @@ export default function RootLayout({
         <meta name="facebook-domain-verification" content="u8keqr2xuq472lesipae1kd6o5dxet" />
 
         {/* Open Graph */}
-        <meta property="og:title" content="海外クラファン.com | 株式会社RE-IDEA (RE-IDEA)" />
+        <meta property="og:title" content="海外クラファン.com | 海外クラファンの全てを一括代行 | 株式会社RE-IDEA" />
         <meta property="og:description" content="日本企業の海外進出を、私たちが徹底的にサポートいたします。" />
         <meta property="og:image" content="/opengraph-image.png" />
         <meta property="og:url" content="https://kaigai-kurafan.com/" />
