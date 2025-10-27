@@ -12,7 +12,7 @@ export const viewport: Viewport = {
 
 export const metadata = {
   metadataBase: new URL('http://localhost:3000'),
-  title: '海外クラファン.com | 株式会社RE-IDEA (RE-IDEA)',
+  title: '海外クラファン.com | 株式会社RE-IDEA',
   description: "海外クラウドファンディングの活用で海外進出をハードル低く実現。海外挑戦の最初の一歩を高コスパで全力サポートいたします。"
 };
 
