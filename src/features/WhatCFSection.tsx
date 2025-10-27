@@ -5,7 +5,8 @@ import { ResponsiveImage } from "@/components/Image/ResponsiveImage";
 import styles from "./WhatCFSection.module.css";
 
 export default function WhatCFSection({ isMobile }: { isMobile?: boolean }) {
-
+  const title = "海外クラファンとは？";
+  const subTitle = "海外クラウドファンディングとは";
 
   const description = isMobile === undefined || isMobile === true
     ? "海外クラウドファンディングでは、在庫を抱える心配がなく、低リスクで受注生産型の販売が可能です。また、実際の海外市場でテストマーケティングを行い、販路を拡大することもできます。"

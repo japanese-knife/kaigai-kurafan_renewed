@@ -13,7 +13,12 @@ export const viewport: Viewport = {
 export const metadata = {
   metadataBase: new URL('http://localhost:3000'),
   title: '海外クラファン.com | 海外クラファンの全てを一括代行 | 株式会社RE-IDEA',
-  description: "海外クラウドファンディングの活用で海外進出をハードル低く実現。海外挑戦の最初の一歩を高コスパで全力サポートいたします。"
+  description: "海外クラウドファンディングの活用で海外進出をハードル低く実現。海外挑戦の最初の一歩を高コスパで全力サポートいたします。",
+  icons: {
+    icon: '/海外クラファン_ロゴ(改).png',
+    shortcut: '/海外クラファン_ロゴ(改).png',
+    apple: '/海外クラファン_ロゴ(改).png',
+  },
 };
 
 export default function RootLayout({
@@ -36,7 +41,7 @@ export default function RootLayout({
         <meta name="keywords" content="海外クラファン代行, 海外クラウドファンディング, 海外進出, RE-IDEA" />
         <meta name="robots" content="index, follow" />
         <link rel="manifest" href="/manifest" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/海外クラファン_ロゴ(改).png" />
         <link rel="canonical" href="https://kaigai-kurafan.com/" />
 
         {/* Facebook Domain Verification */}
