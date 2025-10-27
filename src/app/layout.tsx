@@ -29,7 +29,7 @@ export default function RootLayout({
         
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="海外クラファン.com | 株式会社RE-IDEA (RE-IDEA)" />
+        <meta name="twitter:title" content="海外クラファン.com | 株式会社RE-IDEA" />
         <meta name="twitter:description" content="海外クラウドファンディングの活用で海外進出をハードル低く実現。海外挑戦の最初の一歩を高コスパで全力サポートいたします。" />
         <meta name="twitter:image" content="/opengraph-image.png" />
         
