@@ -29,6 +29,7 @@ const CrowdfundingCard: React.FC<CrowdfundingCardProps> = ({
   title,
   description,
   location,
+  startDate,
   endDate,
   progressPercentage,
   thumbnailUrl,
@@ -41,6 +42,10 @@ const CrowdfundingCard: React.FC<CrowdfundingCardProps> = ({
   cardFontSize,
 }) => {
   const imageHeight = Math.floor((width * 9) / 16);
+
+  const now = new Date();
+  const start = new Date(startDate);
+  const hasStartDatePassed = start <= now;
 
   return (
     <div
@@ -73,7 +78,7 @@ const CrowdfundingCard: React.FC<CrowdfundingCardProps> = ({
           }}
         />
         {/* ステータスラベル（右上） */}
-        {!isEnded && (!isOpen || (isOpen && !isEnded)) && (
+        {!isEnded && ((!isOpen && !hasStartDatePassed) || isOpen) && (
           <div
             style={{
               position: "absolute",
