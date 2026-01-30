@@ -54,7 +54,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     userImgSrc: "samuraibrade.avif",
     imgSrc: "KNIFE.avif",
     tag: "隈部刃物",
-    title: '"Hinokuni Urushi Knife" - 日本あ',
+    title: '"Hinokuni Urushi Knife" - 日本の傑作',
     description:
       "隈部刃物は熊本郊外にある100年近い歴史を持つ刃物工房製作所様。資材高騰や後継者不足の課題を抱えながらも、伝統技術を守り、日本の皇室も認める、受け継がれた刀鍛冶の伝統技術を集約した包丁を世界へ。",
     nowOpen: true,
