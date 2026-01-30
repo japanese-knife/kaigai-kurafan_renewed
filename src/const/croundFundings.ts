@@ -16,51 +16,33 @@ export interface CrofunCardType {
   videoId?: string;
 }
 
+
 export interface DataObjectType {
-  matou: CrofunCardType;
-  knightfang: CrofunCardType;
+  chawaka: CrofunCardType;
   urushi: CrofunCardType;
-  airbeads: CrofunCardType;
-  flexsuit: CrofunCardType;
+  uwasa: CrofunCardType;
+  ybb: CrofunCardType;
+  macbook: CrofunCardType;
+  fujiko: CrofunCardType;
 }
 
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
-  // MATOU Kimono Travel Hoodie
-  matou: {
-    userName: "MATOU株式会社",
-    userImgSrc: "matou.avif",
-    tag: "着物リメイク",
-    title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
+  // CHAKORO
+  chawaka: {
+    userName: "株式会社 TAJIRO",
+    userImgSrc: "CHAKAWA.avif",
+    tag: "伝統工芸品",
+    title: "茶和花 | 日本製の茶香炉",
     description:
-      "古い着物を再利用し、現代のライフスタイルに合わせたトラベルウェアにアップサイクル。職人の手仕事による一点物のフーディで、サステナブルかつ個性的なファッションを提案。",
-    imgSrc: "matou_hoodie.avif",
+      "アートとサステナビリティを融合させたブランド「茶和花（CHAWAKA）」を展開。日本の未利用資源を活かした商品開発を通じて、持続可能なものづくりを推進。",
+    imgSrc: "chakouro.avif",
     nowOpen: true,
     commingSoon: false,
-    progress: 156,
-    totalAmount: 468000,
-    numOfInvestors: 31,
-    startDate: "2025年2月1日",
-    place: "京都府 京都市",
-    plan: "standard",
-    videoId: undefined,
-  },
-
-  // KNIGHT FANG
-  knightfang: {
-    userName: "ナイトファング工房",
-    userImgSrc: "knightfang.avif",
-    imgSrc: "knight_fang.avif",
-    tag: "EDCツール",
-    title: "KNIGHT FANG — チタン製EDCナイフ",
-    description:
-      "航空宇宙グレードのチタン合金を使用した、超軽量かつ高耐久性のEDCナイフ。日常携帯に最適なコンパクト設計ながら、プロフェッショナルユースにも耐える品質を実現。",
-    nowOpen: true,
-    commingSoon: false,
-    progress: 342,
-    totalAmount: 1025000,
-    numOfInvestors: 87,
-    startDate: "2025年1月20日",
-    place: "新潟県 三条市",
+    progress: 273,
+    totalAmount: 273690,
+    numOfInvestors: 23,
+    startDate: "2025年2月9日",
+    place: "京都府 宇治市",
     plan: "basic",
     videoId: undefined,
   },
@@ -85,43 +67,83 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     videoId: undefined,
   },
 
-  // Air Beads Pillow
-  airbeads: {
-    userName: "スリープテック株式会社",
-    userImgSrc: "sleeptech.avif",
-    imgSrc: "airbeads_pillow.avif",
-    tag: "快眠グッズ",
-    title: "エアビーズ枕 | クラウドファンディング初日から注目を集める快眠プロジェクト",
+  // UWASA
+  uwasa: {
+    userName: "丸鷹産業",
+    userImgSrc: "uwasa.webp",
+    imgSrc: "UWASA.png",
+    tag: "究極の軽量スーツ",
+    title: "UWASA | あらゆるシーンに対応する究極の軽量スーツ",
     description:
-      "特殊なマイクロビーズと通気性に優れたエアフロー構造を組み合わせた革新的な枕。首や頭の形に自然にフィットし、睡眠の質を向上。洗濯可能で衛生的に長く使える設計。",
+      "愛媛県・今治市で70年以上にわたり体操服を製造してきたマルタカ産業様。耐久性・快適性に優れた衣類づくりのノウハウを活かし、カジュアルスーツなどの新商品を開発。",
     nowOpen: true,
     commingSoon: false,
-    progress: 567,
-    totalAmount: 1701000,
-    numOfInvestors: 203,
-    startDate: "2025年2月5日",
-    place: "東京都 品川区",
-    plan: "standard",
+    progress: 101,
+    totalAmount: 100600,
+    numOfInvestors: 7,
+    startDate: "2025年2月15日",
+    place: "東京都 町田市",
+    plan: "basic",
     videoId: undefined,
   },
 
-  // Flex Suit
-  flexsuit: {
-    userName: "マルタカ産業",
-    userImgSrc: "marutaka.webp",
-    imgSrc: "flexsuit.png",
-    tag: "機能性スーツ",
-    title: "フレックススーツ | あらゆるシーンに対応する究極の軽量スーツ",
+  // YBB
+  ybb: {
+    userName: "株式会社YBB",
+    userImgSrc: "YBB.png",
+    tag: "盆栽",
+    title: "侘水景 | 日本のミニチュア・ガーデン",
     description:
-      "愛媛県・今治市で70年以上にわたり体操服を製造してきたマルタカ産業様。耐久性・快適性に優れた衣類づくりのノウハウを活かし、ストレッチ性と通気性を兼ね備えた次世代スーツを開発。",
+      "日本の庭園文化をミニチュア化し、癒しと創造性を提供する株式会社YBB様。伝統美と自然の魅力を手軽に楽しめるプロダクトを開発し、「侘び寂びの感性」を世界に。",
+    imgSrc: "YBB.png",
     nowOpen: true,
     commingSoon: false,
-    progress: 234,
-    totalAmount: 702000,
-    numOfInvestors: 45,
-    startDate: "2025年2月15日",
-    place: "愛媛県 今治市",
+    progress: 0,
+    totalAmount: 0,
+    numOfInvestors: 0,
+    startDate: "2025年3月1日",
+    place: "山口県 柳井市",
     plan: "basic",
+    videoId: undefined,
+  },
+
+  // MacBook
+  macbook: {
+    userName: "ZEN LABO",
+    userImgSrc: "zenlabo.avif",
+    tag: "西陣織",
+    title: "「西陣織×本革」日本の職人の手で生まれる13インチMacBookケース",
+    description:
+      "日本の伝統工芸とレザーを融合し、PCやガジェットを優しく包むデザインに。伝統工芸をより身近に感じてもらうことを目指しているZEN LABO様。13インチのiPadケース、A4ファイルフォルダーとしても使える2way仕様のlaptop caseを開発",
+    imgSrc: "MacBook.png",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 0,
+    totalAmount: 0,
+    numOfInvestors: 0,
+    startDate: "2025年4月1日",
+    place: "神奈川県 川崎市",
+    plan: "basic",
+    videoId: undefined,
+  },
+
+  // FUJIKO II
+  fujiko: {
+    userName: "株式会社ベストバランス",
+    userImgSrc: "fuji-ko.jpg",
+    imgSrc: "FUJIKO.avif",
+    tag: "マッサージ",
+    title: "FUJI-KO II: 腰痛緩和の究極の解決策",
+    description:
+      "骨格バランスを整え体の歪みを改善する整体で、施術とセルフケアを通じて健やかな体づくりをサポートする整骨院ベストバランス様。腰痛に悩む人々が、どこにいても簡単にセルフケアを行えるマッサージ器具を開発。",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 1233,
+    totalAmount: 616711,
+    numOfInvestors: 134,
+    startDate: "2024年8月26日",
+    place: "千葉県 君津市",
+    plan: "standard",
     videoId: undefined,
   },
 };
