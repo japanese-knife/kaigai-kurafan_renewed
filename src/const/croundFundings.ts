@@ -94,7 +94,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     title: "Karatto Plus | 次世代シューズ用除湿＆消臭デバイス",
     description:
       "わずか1時間で中敷きの湿気を81%低減し、ニオイを99%除去できる次世代シューケアアイテム。海外クラファン.comがプロモーション動画の撮影・編集、ページデザイン、広告集客、プロジェクト終了後の海外配送まで総合支援し、世界市場への挑戦をサポート。",
-    imgSrc: "KARATTO_PLUS_DEVICE.avif",
+    imgSrc: "karatto_plus.png",
     nowOpen: false,
     commingSoon: false,
     progress: 0,
