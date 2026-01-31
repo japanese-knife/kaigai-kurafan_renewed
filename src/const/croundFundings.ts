@@ -46,6 +46,26 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     videoId: undefined,
   },
 
+  // KNIGHT FANG
+  macbook: {
+    userName: "KNIGHT FANG（開発チーム）",
+    userImgSrc: "KNIGHT_FANG.avif",
+    tag: "EDCナイフ / チタン",
+    title: "KNIGHT FANG — チタン製EDCナイフ",
+    description:
+      "日常使いからアウトドアまで活躍する、軽量オールブラックのチタン製EDCナイフ。高い耐久性とシャープな切れ味を両立し、キャンプやフィールドワークなど幅広い場面で頼れる一本として設計。Kickstarter限定モデルとして、素材選定から仕上げまでこだわったShadowEdgeシリーズの出発点となる製品。",
+    imgSrc: "KNIGHT_FANG_KNIFE.avif",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 0,
+    totalAmount: 0,
+    numOfInvestors: 0,
+    startDate: null,
+    place: "日本",
+    plan: "basic",
+    videoId: undefined,
+  },
+
   // Hinokuni Urushi Knife
   urushi: {
     userName: "熊本の刃物工房（Hinokuni）",
@@ -103,26 +123,6 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     startDate: null,
     place: "日本",
     plan: "standard",
-    videoId: undefined,
-  },
-
-  // KNIGHT FANG
-  macbook: {
-    userName: "KNIGHT FANG（開発チーム）",
-    userImgSrc: "KNIGHT_FANG.avif",
-    tag: "EDCナイフ / チタン",
-    title: "KNIGHT FANG — チタン製EDCナイフ",
-    description:
-      "日常使いからアウトドアまで活躍する、軽量オールブラックのチタン製EDCナイフ。高い耐久性とシャープな切れ味を両立し、キャンプやフィールドワークなど幅広い場面で頼れる一本として設計。Kickstarter限定モデルとして、素材選定から仕上げまでこだわったShadowEdgeシリーズの出発点となる製品。",
-    imgSrc: "KNIGHT_FANG_KNIFE.avif",
-    nowOpen: true,
-    commingSoon: false,
-    progress: 0,
-    totalAmount: 0,
-    numOfInvestors: 0,
-    startDate: null,
-    place: "日本",
-    plan: "basic",
     videoId: undefined,
   },
 };
