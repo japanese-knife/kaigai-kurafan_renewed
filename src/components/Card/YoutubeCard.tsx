@@ -99,8 +99,8 @@ const YoutubeCard: React.FC<Props> = (props) => {
             {props.plan === "light"
               ? "ライトプラン(初期費用 0円 + 20 %)"
               : props.plan === "basic"
-              ? "ベーシックプラン(初期費用 15万円(税抜) + 20 %)"
-              : "スタンダードプラン(初期費用 30万円(税抜) + 20 %)"}
+              ? "スタンダードプラン(初期費用 15万円(税抜) + 20 %)"
+              : "フルプラン(初期費用 30万円(税抜) + 20 %)"}
           </div>
 
           <div style={{ display: "flex", flexDirection: "column", gap: 4, paddingBottom: 16 }}>
