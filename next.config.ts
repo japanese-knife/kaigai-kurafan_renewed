@@ -7,6 +7,8 @@ const nextConfig: NextConfig = {
     unoptimized: true, // 画像最適化は無効のまま
   },
 
+  turbopack: {},
+
   /**
    * Custom Webpack configuration
    * - Enable deterministic chunking for better long-term caching
