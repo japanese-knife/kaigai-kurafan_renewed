@@ -25,51 +25,6 @@ export interface DataObjectType {
   fujiko: CrofunCardType; // 予備（必要なら差し替えOK）
 }
 
-export interface CrofunCardType {
-  userName: string;
-  userImgSrc: string;
-  tag: string;
-  title: string;
-  imgSrc: string;
-  description: string;
-  progress: number;
-  nowOpen: boolean;
-  commingSoon: boolean;
-  totalAmount: number;
-  numOfInvestors: number;
-  startDate: string | null;
-  place: string;
-  plan: "light" | "standard" | "basic";
-  videoId?: string;
-}
-
-export interface DataObjectType {
-  chawaka: CrofunCardType; // MATOU
-  urushi: CrofunCardType; // Hinokuni Urushi Knife
-  uwasa: CrofunCardType; // Air Beads
-  ybb: CrofunCardType; // Karatto Plus
-  macbook: CrofunCardType; // KNIGHT FANG
-  fujiko: CrofunCardType; // 予備（必要なら差し替えOK）
-}
-
-export interface CrofunCardType {
-  userName: string;
-  userImgSrc: string;
-  tag: string;
-  title: string;
-  imgSrc: string;
-  description: string;
-  progress: number;
-  nowOpen: boolean;
-  commingSoon: boolean;
-  totalAmount: number;
-  numOfInvestors: number;
-  startDate: string | null;
-  place: string;
-  plan: "light" | "standard" | "basic";
-  videoId?: string;
-}
-
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
   // MATOU Kimono Travel Hoodie
   chawaka: {
