@@ -27,7 +27,7 @@ export interface DataObjectType {
 
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
   // MATOU Kimono Travel Hoodie
-  chawaka: {
+  urushi: {
     userName: "MATOU（製作者チーム）",
     userImgSrc: "MATOU.avif",
     tag: "アパレル / トラベル",
@@ -107,7 +107,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   },
 
   // KNIGHT FANG
-  fujiko: {
+  chawaka: {
     userName: "KNIGHT FANG（開発チーム）",
     userImgSrc: "KNIGHT_FANG.avif",
     tag: "EDCナイフ / チタン",
