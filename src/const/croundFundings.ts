@@ -34,7 +34,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
     imgSrc: "matou.jpg",
     description:
-      "日本の伝統的な着物生地を使った100%ハンドメイドのトラベルフーディ。収納力の高い合計6つのポケットに加え、内蔵アイマスク、サングラスホルダーなど旅先の快適性と機能性を追求。上質な素材と日本の職人技によるラグジュアリーな1着として、日常使いから長旅まで幅広く活躍。",
+      "海外クラファン.comがページ構成設計、ビジュアル撮影ディレクション、英語コピー制作、広告運用、そしてプロジェクト運営までを一括支援。伝統素材の魅力を“海外向け体験価値”として再定義し、グローバル市場へ向けたブランド訴求を成功させました。",
     nowOpen: true,
     commingSoon: false,
     progress: 0,
@@ -54,7 +54,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "包丁 / 伝統工芸",
     title: "Hinokuni Urushi Knife｜受け継がれた刀鍛冶の技を、世界のキッチンへ",
     description:
-      "熊本の刃物工房がKickstarterで発表し、目標の1000％を短期間で達成した包丁プロジェクト。海外クラファン.comがストーリー設計・翻訳・広告運用をサポートし、“漆と職人技の融合”が海外ユーザーに大きく響いた。",
+      "海外クラファン.comがストーリー設計、翻訳、ページ制作、広告戦略まで総合支援。日本の刀鍛冶技術と漆文化を“ラグジュアリークラフト”として再編集し、海外ユーザーに強く訴求。結果、短期間で目標の1000％を超える支援を達成しました。",
     nowOpen: true,
     commingSoon: false,
     progress: 1000,
@@ -74,7 +74,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "快眠 / ヘルスケア",
     title: "エアビーズ枕 | クラウドファンディング初日から注目を集める快眠プロジェクト",
     description:
-      "国内で高評価を得た「Air Beads」が海外クラウドファンディング第二弾を始動。海外市場での魅せ方を徹底追求するため、撮影ディレクション・ブランドコピー・ページデザイン・広告戦略設計・Kickstarter運用サポートまで一貫して支援。世界展開を見据えたクリエイティブ戦略でグローバル拡大を本格化。",
+      "海外クラファン.comが撮影ディレクション、ブランドコピー制作、ページデザイン、広告運用、Kickstarter運営まで一括支援。日本国内で実績のあった製品を“睡眠テック”として再ブランディングし、海外市場向けプロジェクトとして展開しました。",
     nowOpen: true,
     commingSoon: false,
     progress: 0,
@@ -93,7 +93,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "シューケア / デバイス",
     title: "Karatto Plus | 次世代シューズ用除湿＆消臭デバイス",
     description:
-      "わずか1時間で中敷きの湿気を81%低減し、ニオイを99%除去できる次世代シューケアアイテム。海外クラファン.comがプロモーション動画の撮影・編集、ページデザイン、広告集客、プロジェクト終了後の海外配送まで総合支援し、世界市場への挑戦をサポート。",
+      "海外クラファン.comがプロモーション動画の企画・撮影・編集、ページ設計、広告集客、プロジェクト終了後の海外配送までワンストップで支援。機能訴求をビジュアル化し、グローバル市場で通用する“フットウェアケアデバイス”として展開しました。",
     imgSrc: "karatto_plus.png",
     nowOpen: false,
     commingSoon: false,
@@ -113,7 +113,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "EDCナイフ / チタン",
     title: "KNIGHT FANG — チタン製EDCナイフ",
     description:
-      "日常使いからアウトドアまで活躍する、軽量オールブラックのチタン製EDCナイフ。高い耐久性とシャープな切れ味を両立し、キャンプやフィールドワークなど幅広い場面で頼れる一本として設計。Kickstarter限定モデルとして、素材選定から仕上げまでこだわったShadowEdgeシリーズの出発点となる製品。",
+      "海外クラファン.comがプロダクトの強み整理、英語コピー制作、ページデザイン、広告運用を担当。EDC市場向けに“軽量チタン×実用性能”を軸とした訴求へ最適化し、グローバルユーザーに向けたブランド立ち上げを支援しました。",
     imgSrc: "knight_fang.jpg",
     nowOpen: true,
     commingSoon: false,
