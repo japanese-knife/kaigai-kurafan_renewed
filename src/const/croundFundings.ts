@@ -47,7 +47,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   },
 
   // Hinokuni Urushi Knife
-  chawaka: {
+  fujiko: {
     userName: "熊本の刃物工房（Hinokuni）",
     userImgSrc: "HINOKUNI.avif",
     imgSrc: "HINOKUNI_URUSHI_KNIFE.avif",
