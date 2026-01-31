@@ -70,15 +70,6 @@ export interface CrofunCardType {
   videoId?: string;
 }
 
-export interface DataObjectType {
-  chawaka: CrofunCardType; // MATOU
-  urushi: CrofunCardType; // Hinokuni Urushi Knife
-  uwasa: CrofunCardType; // Air Beads
-  ybb: CrofunCardType; // Karatto Plus
-  macbook: CrofunCardType; // KNIGHT FANG
-  fujiko: CrofunCardType; // 予備（必要なら差し替えOK）
-}
-
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
   // MATOU Kimono Travel Hoodie
   chawaka: {
@@ -180,23 +171,23 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     videoId: undefined,
   },
 
-  // 予備（必要なら差し替えOK）
+  // ★ fujiko → KNIGHT FANG と同内容に変更
   fujiko: {
-    userName: "（準備中）",
-    userImgSrc: "PLACEHOLDER.avif",
-    imgSrc: "PLACEHOLDER.avif",
-    tag: "Coming soon",
-    title: "次のプロジェクトを追加してください",
+    userName: "KNIGHT FANG（開発チーム）",
+    userImgSrc: "knight_fang.jpg",
+    tag: "EDCナイフ / チタン",
+    title: "KNIGHT FANG — チタン製EDCナイフ",
     description:
-      "この枠は予備です。新しい実績（または掲載したいプロジェクト）を1つ追加する場合に差し替えてご利用ください。",
-    nowOpen: false,
-    commingSoon: true,
+      "海外クラファン.comが製品の強み整理、英語コピー制作、ページデザイン、広告運用を担当。EDC市場向けに訴求軸を最適化し、ブランド立ち上げを支援した結果、達成率2500%を記録しました。",
+    imgSrc: "knight_fang.jpg",
+    nowOpen: true,
+    commingSoon: false,
     progress: 0,
     totalAmount: 0,
     numOfInvestors: 0,
     startDate: null,
-    place: "—",
-    plan: "light",
+    place: "日本",
+    plan: "basic",
     videoId: undefined,
   },
 };
