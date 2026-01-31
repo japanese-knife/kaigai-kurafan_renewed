@@ -122,7 +122,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     numOfInvestors: 0,
     startDate: null,
     place: "日本",
-    plan: "basic",
+    plan: "standard",
     videoId: undefined,
   },
 };
