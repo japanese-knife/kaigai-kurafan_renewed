@@ -125,24 +125,4 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     plan: "basic",
     videoId: undefined,
   },
-
-  // 予備枠（必要なら差し替えOK）
-  fujiko: {
-    userName: "（準備中）",
-    userImgSrc: "PLACEHOLDER.avif",
-    imgSrc: "PLACEHOLDER.avif",
-    tag: "Coming soon",
-    title: "次のプロジェクトを追加してください",
-    description:
-      "この枠は予備です。新しい実績（または掲載したいプロジェクト）を1つ追加する場合に差し替えてご利用ください。",
-    nowOpen: false,
-    commingSoon: true,
-    progress: 0,
-    totalAmount: 0,
-    numOfInvestors: 0,
-    startDate: null,
-    place: "—",
-    plan: "light",
-    videoId: undefined,
-  },
 };
