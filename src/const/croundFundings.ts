@@ -32,7 +32,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     userName: "株式会社 TAJIRO",
     userImgSrc: "CHAKAWA.avif",
     tag: "伝統工芸品",
-    title: "茶和花 | 日本製の茶香炉",
+    title: "茶和花 | 日本製の茶",
     description:
       "アートとサステナビリティを融合させたブランド「茶和花（CHAWAKA）」を展開。日本の未利用資源を活かした商品開発を通じて、持続可能なものづくりを推進。",
     imgSrc: "chakouro.avif",
