@@ -27,102 +27,124 @@ export interface DataObjectType {
 }
 
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
-  // MATOU Kimono Travel Hoodie
-matou: {
-  userName: "MATOU",
-  userImgSrc: "matou.avif",
-  tag: "着物アップサイクル",
-  title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
-  description:
-    "日本の伝統的な着物生地を使用した100%ハンドメイドのトラベルフーディ。合計6つの多機能ポケット、内蔵アイマスク、サングラスホルダーなど旅を快適にする工夫を凝縮。日本の職人技とラグジュアリー素材を融合した、日常から長旅まで活躍するプレミアムウェア。",
-  imgSrc: "matou-hoodie.avif",
-  nowOpen: true,
-  commingSoon: false,
-  progress: 0,
-  totalAmount: 0,
-  numOfInvestors: 0,
-  startDate: "2025年予定",
-  place: "日本",
-  plan: "standard",
-  videoId: undefined,
-},
+  
+// CHAKORO
+  chawaka: {
+    userName: "株式会社 TAJIRO",
+    userImgSrc: "CHAKAWA.avif",
+    tag: "伝統工芸品",
+    title: "茶和花 | 日本製の茶",
+    description:
+      "アートとサステナビリティを融合させたブランド「茶和花（CHAWAKA）」を展開。日本の未利用資源を活かした商品開発を通じて、持続可能なものづくりを推進。",
+    imgSrc: "chakouro.avif",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 273,
+    totalAmount: 273690,
+    numOfInvestors: 23,
+    startDate: "2025年2月9日",
+    place: "京都府 宇治市",
+    plan: "basic",
+    videoId: undefined,
+  },
 
-// KNIGHT FANG
-knightfang: {
-  userName: "ShadowEdge Series",
-  userImgSrc: "knightfang.avif",
-  tag: "EDCチタンナイフ",
-  title: "KNIGHT FANG — チタン製EDCナイフ",
-  description:
-    "軽量オールブラック仕様のチタン製EDCナイフ。高耐久・高切れ味を兼ね備え、日常携帯からキャンプ・フィールドワークまで対応。Kickstarter限定モデルとして誕生したShadowEdgeシリーズの原点となる一本。",
-  imgSrc: "knightfang-knife.avif",
-  nowOpen: true,
-  commingSoon: false,
-  progress: 0,
-  totalAmount: 0,
-  numOfInvestors: 0,
-  startDate: "2025年予定",
-  place: "日本",
-  plan: "standard",
-  videoId: undefined,
-},
+  // URUSHI KNIFE
+  urushi: {
+    userName: "隈部刃物製作所",
+    userImgSrc: "samuraibrade.avif",
+    imgSrc: "KNIFE.avif",
+    tag: "隈部刃物",
+    title: '"Hinokuni Urushi Knife" - 日本の傑作',
+    description:
+      "隈部刃物は熊本郊外にある100年近い歴史を持つ刃物工房製作所様。資材高騰や後継者不足の課題を抱えながらも、伝統技術を守り、日本の皇室も認める、受け継がれた刀鍛冶の伝統技術を集約した包丁を世界へ。",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 820,
+    totalAmount: 820750,
+    numOfInvestors: 19,
+    startDate: "2025年2月9日",
+    place: "熊本県 下益城郡",
+    plan: "basic",
+    videoId: undefined,
+  },
 
-// Air Beads Pillow
-airbeads: {
-  userName: "Air Beads",
-  userImgSrc: "airbeads.avif",
-  tag: "快眠テック",
-  title: "エアビーズ枕 | 海外展開を見据えた快眠プロジェクト",
-  description:
-    "日本国内で高評価を得たAir Beads枕の海外クラウドファンディング第二弾。撮影ディレクション、ブランドコピー、ページデザイン、広告戦略設計、Kickstarter運用まで一貫支援。グローバル市場向けに再構築されたクリエイティブで世界展開を本格化。",
-  imgSrc: "airbeads-pillow.avif",
-  nowOpen: true,
-  commingSoon: false,
-  progress: 0,
-  totalAmount: 0,
-  numOfInvestors: 0,
-  startDate: "2025年予定",
-  place: "日本",
-  plan: "premium",
-  videoId: undefined,
-},
+  // UWASA
+  uwasa: {
+    userName: "丸鷹産業",
+    userImgSrc: "uwasa.webp",
+    imgSrc: "UWASA.png",
+    tag: "究極の軽量スーツ",
+    title: "UWASA | あらゆるシーンに対応する究極の軽量スーツ",
+    description:
+      "愛媛県・今治市で70年以上にわたり体操服を製造してきたマルタカ産業様。耐久性・快適性に優れた衣類づくりのノウハウを活かし、カジュアルスーツなどの新商品を開発。",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 101,
+    totalAmount: 100600,
+    numOfInvestors: 7,
+    startDate: "2025年2月15日",
+    place: "東京都 町田市",
+    plan: "basic",
+    videoId: undefined,
+  },
 
-// Karatto Plus
-karatto: {
-  userName: "Karatto Plus",
-  userImgSrc: "karatto.avif",
-  tag: "シューケアデバイス",
-  title: "Karatto Plus | 次世代シューズ用除湿＆消臭デバイス",
-  description:
-    "わずか1時間で中敷きの湿気を81%低減し、ニオイを99%除去する次世代シューケアデバイス。プロモーション動画制作、ページ設計、広告集客、海外配送までトータル支援を実施し、世界市場への挑戦をサポート。",
-  imgSrc: "karatto-device.avif",
-  nowOpen: true,
-  commingSoon: false,
-  progress: 0,
-  totalAmount: 0,
-  numOfInvestors: 0,
-  startDate: "2025年予定",
-  place: "日本",
-  plan: "standard",
-  videoId: undefined,
-},
+  // YBB
+  ybb: {
+    userName: "株式会社YBB",
+    userImgSrc: "YBB.png",
+    tag: "盆栽",
+    title: "侘水景 | 日本のミニチュア・ガーデン",
+    description:
+      "日本の庭園文化をミニチュア化し、癒しと創造性を提供する株式会社YBB様。伝統美と自然の魅力を手軽に楽しめるプロダクトを開発し、「侘び寂びの感性」を世界に。",
+    imgSrc: "YBB.png",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 0,
+    totalAmount: 0,
+    numOfInvestors: 0,
+    startDate: "2025年3月1日",
+    place: "山口県 柳井市",
+    plan: "basic",
+    videoId: undefined,
+  },
 
-// Hinokuni Urushi Knife
-hinokuni: {
-  userName: "熊本刃物工房",
-  userImgSrc: "hinokuni.avif",
-  tag: "漆包丁",
-  title: "Hinokuni Urushi Knife｜受け継がれた刀鍛冶の技を、世界のキッチンへ",
-  description:
-    "熊本の刃物工房が手がける漆仕上げ包丁プロジェクト。Kickstarterで目標の1000％を短期間で達成。ストーリー設計、翻訳、広告運用を通じて“漆と職人技の融合”という独自価値を海外市場へ訴求。",
-  imgSrc: "hinokuni-knife.avif",
-  nowOpen: true,
-  commingSoon: false,
-  progress: 1000,
-  totalAmount: 0,
-  numOfInvestors: 0,
-  startDate: "実施済",
-  place: "熊本県",
-  plan: "premium",
-  videoId: undefined,
-},
+  // MacBook
+  macbook: {
+    userName: "ZEN LABO",
+    userImgSrc: "zenlabo.avif",
+    tag: "西陣織",
+    title: "「西陣織×本革」日本の職人の手で生まれる13インチMacBookケース",
+    description:
+      "日本の伝統工芸とレザーを融合し、PCやガジェットを優しく包むデザインに。伝統工芸をより身近に感じてもらうことを目指しているZEN LABO様。13インチのiPadケース、A4ファイルフォルダーとしても使える2way仕様のlaptop caseを開発",
+    imgSrc: "MacBook.png",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 0,
+    totalAmount: 0,
+    numOfInvestors: 0,
+    startDate: "2025年4月1日",
+    place: "神奈川県 川崎市",
+    plan: "basic",
+    videoId: undefined,
+  },
+
+  // FUJIKO II
+  fujiko: {
+    userName: "株式会社ベストバランス",
+    userImgSrc: "fuji-ko.jpg",
+    imgSrc: "FUJIKO.avif",
+    tag: "マッサージ",
+    title: "FUJI-KO II: 腰痛緩和の究極の解決策",
+    description:
+      "骨格バランスを整え体の歪みを改善する整体で、施術とセルフケアを通じて健やかな体づくりをサポートする整骨院ベストバランス様。腰痛に悩む人々が、どこにいても簡単にセルフケアを行えるマッサージ器具を開発。",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 1233,
+    totalAmount: 616711,
+    numOfInvestors: 134,
+    startDate: "2024年8月26日",
+    place: "千葉県 君津市",
+    plan: "standard",
+    videoId: undefined,
+  },
+};
