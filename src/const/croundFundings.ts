@@ -34,7 +34,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
     imgSrc: "matou.jpg",
     description:
-      "海外クラファン.comがページ構成設計、ビジュアル撮影ディレクション、英語コピー制作、広告運用、そしてプロジェクト運営までを一括支援。伝統素材の魅力を“海外向け体験価値”として再定義し、グローバル市場へ向けたブランド訴求を成功させました。",
+      "海外クラファン.comがページ構成設計、ビジュアル撮影ディレクション、英語コピー制作、広告運用、プロジェクト運営までを一括支援。伝統素材の魅力を海外向けに再編集し、結果として達成率5400%を記録しました。",
     nowOpen: true,
     commingSoon: false,
     progress: 0,
@@ -54,7 +54,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "包丁 / 伝統工芸",
     title: "Hinokuni Urushi Knife｜受け継がれた刀鍛冶の技を、世界のキッチンへ",
     description:
-      "海外クラファン.comがストーリー設計、翻訳、ページ制作、広告戦略まで総合支援。日本の刀鍛冶技術と漆文化を“ラグジュアリークラフト”として再編集し、海外ユーザーに強く訴求。結果、短期間で目標の1000％を超える支援を達成しました。",
+      "海外クラファン.comがストーリー設計、翻訳、ページ制作、広告戦略を総合支援。刀鍛冶技術と漆文化をラグジュアリークラフトとして再構築し、海外ユーザーに強く訴求した結果、達成率1010%を達成しました。",
     nowOpen: true,
     commingSoon: false,
     progress: 1000,
@@ -74,7 +74,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "快眠 / ヘルスケア",
     title: "エアビーズ枕 | クラウドファンディング初日から注目を集める快眠プロジェクト",
     description:
-      "海外クラファン.comが撮影ディレクション、ブランドコピー制作、ページデザイン、広告運用、Kickstarter運営まで一括支援。日本国内で実績のあった製品を“睡眠テック”として再ブランディングし、海外市場向けプロジェクトとして展開しました。",
+      "海外クラファン.comが撮影ディレクション、ブランドコピー制作、ページデザイン、広告運用、Kickstarter運営を一括支援。国内実績製品を睡眠テックとして再ブランディングし、海外市場で達成率1050%を記録しました。",
     nowOpen: true,
     commingSoon: false,
     progress: 0,
@@ -93,7 +93,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "シューケア / デバイス",
     title: "Karatto Plus | 次世代シューズ用除湿＆消臭デバイス",
     description:
-      "海外クラファン.comがプロモーション動画の企画・撮影・編集、ページ設計、広告集客、プロジェクト終了後の海外配送までワンストップで支援。機能訴求をビジュアル化し、グローバル市場で通用する“フットウェアケアデバイス”として展開しました。",
+      "海外クラファン.comがプロモーション動画の企画・制作、ページ設計、広告運用、海外配送までワンストップ支援。機能価値を視覚化し、グローバル市場向け製品として展開した結果、達成率1367%を達成しました。",
     imgSrc: "karatto_plus.png",
     nowOpen: false,
     commingSoon: false,
@@ -113,7 +113,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     tag: "EDCナイフ / チタン",
     title: "KNIGHT FANG — チタン製EDCナイフ",
     description:
-      "海外クラファン.comがプロダクトの強み整理、英語コピー制作、ページデザイン、広告運用を担当。EDC市場向けに“軽量チタン×実用性能”を軸とした訴求へ最適化し、グローバルユーザーに向けたブランド立ち上げを支援しました。",
+      "海外クラファン.comが製品の強み整理、英語コピー制作、ページデザイン、広告運用を担当。EDC市場向けに訴求軸を最適化し、ブランド立ち上げを支援した結果、達成率2500%を記録しました。",
     imgSrc: "knight_fang.jpg",
     nowOpen: true,
     commingSoon: false,
