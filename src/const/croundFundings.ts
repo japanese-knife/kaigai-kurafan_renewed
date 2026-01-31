@@ -27,7 +27,6 @@ export interface DataObjectType {
 }
 
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
-  
 // CHAKORO
   chawaka: {
     userName: "株式会社 TAJIRO",
