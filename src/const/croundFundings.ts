@@ -70,7 +70,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   uwasa: {
     userName: "Air Beads（ブランド）",
     userImgSrc: "air_beads.jpg",
-    imgSrc: "AIR_BEADS_PILLOW.avif",
+    imgSrc: "air_beads.jpg",
     tag: "快眠 / ヘルスケア",
     title: "エアビーズ枕 | クラウドファンディング初日から注目を集める快眠プロジェクト",
     description:
