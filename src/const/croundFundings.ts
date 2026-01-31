@@ -109,7 +109,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   // KNIGHT FANG
   chawaka: {
     userName: "KNIGHT FANG（開発チーム）",
-    userImgSrc: "KNIGHT_FANG.avif",
+    userImgSrc: "KNIGHT_FANG.jpg",
     tag: "EDCナイフ / チタン",
     title: "KNIGHT FANG — チタン製EDCナイフ",
     description:
