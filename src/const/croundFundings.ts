@@ -17,24 +17,23 @@ export interface CrofunCardType {
 }
 
 export interface DataObjectType {
-  chawaka: CrofunCardType; // MATOU
-  urushi: CrofunCardType; // Hinokuni Urushi Knife
-  uwasa: CrofunCardType; // Air Beads
-  ybb: CrofunCardType; // Karatto Plus
-  macbook: CrofunCardType; // KNIGHT FANG
-  fujiko: CrofunCardType; // 予備（必要なら差し替えOK）
+  matou: CrofunCardType;
+  knightfang: CrofunCardType;
+  airbeads: CrofunCardType;
+  hinokuni: CrofunCardType;
+  karatto: CrofunCardType;
 }
 
 export const CROUD_FUNDINGS_DATA: DataObjectType = {
-  // MATOU Kimono Travel Hoodie
-  chawaka: {
+  // 1️⃣ MATOU Kimono Travel Hoodie
+  matou: {
     userName: "MATOU（製作者チーム）",
     userImgSrc: "MATOU.avif",
     tag: "アパレル / トラベル",
     title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
     imgSrc: "MATOU_HOODIE.avif",
     description:
-      "日本の伝統的な着物生地を使った100%ハンドメイドのトラベルフーディ。収納力の高い合計6つのポケットに加え、内蔵アイマスク、サングラスホルダーなど旅先の快適性と機能性を追求。上質な素材と日本の職人技によるラグジュアリーな1着として、日常使いから長旅まで幅広く活躍。",
+      "日本の伝統的な着物生地を使った100%ハンドメイドのトラベルフーディ。6つの高機能ポケット、内蔵アイマスク、サングラスホルダーなど旅先の快適性を追求。上質素材と職人技が融合したラグジュアリーな一着。",
     nowOpen: true,
     commingSoon: false,
     progress: 0,
@@ -43,18 +42,17 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     startDate: null,
     place: "日本",
     plan: "standard",
-    videoId: undefined,
   },
 
-  // KNIGHT FANG
-  macbook: {
-    userName: "KNIGHT FANG（開発チーム）",
+  // 2️⃣ KNIGHT FANG
+  knightfang: {
+    userName: "KNIGHT FANG 開発チーム",
     userImgSrc: "KNIGHT_FANG.avif",
     tag: "EDCナイフ / チタン",
     title: "KNIGHT FANG — チタン製EDCナイフ",
-    description:
-      "日常使いからアウトドアまで活躍する、軽量オールブラックのチタン製EDCナイフ。高い耐久性とシャープな切れ味を両立し、キャンプやフィールドワークなど幅広い場面で頼れる一本として設計。Kickstarter限定モデルとして、素材選定から仕上げまでこだわったShadowEdgeシリーズの出発点となる製品。",
     imgSrc: "KNIGHT_FANG_KNIFE.avif",
+    description:
+      "軽量オールブラックのチタン製EDCナイフ。高い耐久性と鋭い切れ味を兼ね備え、日常使いからアウトドアまで対応。ShadowEdgeシリーズの出発点となるKickstarter限定モデル。",
     nowOpen: true,
     commingSoon: false,
     progress: 0,
@@ -63,18 +61,36 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     startDate: null,
     place: "日本",
     plan: "basic",
-    videoId: undefined,
   },
 
-  // Hinokuni Urushi Knife
-  urushi: {
-    userName: "熊本の刃物工房（Hinokuni）",
-    userImgSrc: "HINOKUNI.avif",
-    imgSrc: "HINOKUNI_URUSHI_KNIFE.avif",
-    tag: "包丁 / 伝統工芸",
-    title: "Hinokuni Urushi Knife｜受け継がれた刀鍛冶の技を、世界のキッチンへ",
+  // 3️⃣ Air Beads Pillow
+  airbeads: {
+    userName: "Air Beads",
+    userImgSrc: "AIR_BEADS.avif",
+    tag: "快眠 / ヘルスケア",
+    title: "エアビーズ枕 | 海外クラファンで注目の快眠プロジェクト",
+    imgSrc: "AIR_BEADS_PILLOW.avif",
     description:
-      "熊本の刃物工房がKickstarterで発表し、目標の1000％を短期間で達成した包丁プロジェクト。海外クラファン.comがストーリー設計・翻訳・広告運用をサポートし、“漆と職人技の融合”が海外ユーザーに大きく響いた。",
+      "国内で高評価を得たAir Beadsの海外第2弾。撮影ディレクション、コピー制作、ページ設計、広告戦略、Kickstarter運用まで一貫支援し、グローバル展開を本格化。",
+    nowOpen: true,
+    commingSoon: false,
+    progress: 0,
+    totalAmount: 0,
+    numOfInvestors: 0,
+    startDate: null,
+    place: "日本",
+    plan: "standard",
+  },
+
+  // 4️⃣ Hinokuni Urushi Knife
+  hinokuni: {
+    userName: "熊本の刃物工房",
+    userImgSrc: "HINOKUNI.avif",
+    tag: "包丁 / 伝統工芸",
+    title: "Hinokuni Urushi Knife｜刀鍛冶の技を世界のキッチンへ",
+    imgSrc: "HINOKUNI_URUSHI_KNIFE.avif",
+    description:
+      "熊本の刃物工房が手掛けた漆包丁。Kickstarterで目標の1000％を達成。ストーリー設計・翻訳・広告運用を支援し、漆と職人技の融合が海外で高評価を獲得。",
     nowOpen: true,
     commingSoon: false,
     progress: 1000,
@@ -83,38 +99,17 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     startDate: null,
     place: "熊本県",
     plan: "standard",
-    videoId: undefined,
   },
 
-  // Air Beads Pillow
-  uwasa: {
-    userName: "Air Beads（ブランド）",
-    userImgSrc: "AIR_BEADS.avif",
-    imgSrc: "AIR_BEADS_PILLOW.avif",
-    tag: "快眠 / ヘルスケア",
-    title: "エアビーズ枕 | クラウドファンディング初日から注目を集める快眠プロジェクト",
-    description:
-      "国内で高評価を得た「Air Beads」が海外クラウドファンディング第二弾を始動。海外市場での魅せ方を徹底追求するため、撮影ディレクション・ブランドコピー・ページデザイン・広告戦略設計・Kickstarter運用サポートまで一貫して支援。世界展開を見据えたクリエイティブ戦略でグローバル拡大を本格化。",
-    nowOpen: true,
-    commingSoon: false,
-    progress: 0,
-    totalAmount: 0,
-    numOfInvestors: 0,
-    startDate: null,
-    place: "日本",
-    plan: "standard",
-    videoId: undefined,
-  },
-
-  // Karatto Plus
-  ybb: {
-    userName: "カラッとプラス（ブランド）",
+  // 5️⃣ Karatto Plus
+  karatto: {
+    userName: "カラッとプラス",
     userImgSrc: "KARATTO_PLUS.avif",
     tag: "シューケア / デバイス",
     title: "Karatto Plus | 次世代シューズ用除湿＆消臭デバイス",
-    description:
-      "わずか1時間で中敷きの湿気を81%低減し、ニオイを99%除去できる次世代シューケアアイテム。海外クラファン.comがプロモーション動画の撮影・編集、ページデザイン、広告集客、プロジェクト終了後の海外配送まで総合支援し、世界市場への挑戦をサポート。",
     imgSrc: "KARATTO_PLUS_DEVICE.avif",
+    description:
+      "1時間で湿気を81%低減、ニオイを99%除去する次世代シューケア。動画制作、ページ設計、広告集客、海外配送まで総合支援し、世界市場へ展開。",
     nowOpen: false,
     commingSoon: false,
     progress: 0,
@@ -123,6 +118,5 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     startDate: null,
     place: "日本",
     plan: "standard",
-    videoId: undefined,
   },
 };
