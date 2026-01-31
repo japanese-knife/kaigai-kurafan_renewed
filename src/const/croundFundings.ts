@@ -32,7 +32,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     userImgSrc: "matou.jpg",
     tag: "アパレル / トラベル",
     title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
-    imgSrc: "MATOU_HOODIE.avif",
+    imgSrc: "matou.jpg",
     description:
       "日本の伝統的な着物生地を使った100%ハンドメイドのトラベルフーディ。収納力の高い合計6つのポケットに加え、内蔵アイマスク、サングラスホルダーなど旅先の快適性と機能性を追求。上質な素材と日本の職人技によるラグジュアリーな1着として、日常使いから長旅まで幅広く活躍。",
     nowOpen: true,
