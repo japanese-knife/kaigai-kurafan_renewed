@@ -62,7 +62,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
     numOfInvestors: 0,
     startDate: null,
     place: "熊本県",
-    plan: "lgiht",
+    plan: "light",
     videoId: undefined,
   },
 
