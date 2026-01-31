@@ -50,7 +50,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   fujiko: {
     userName: "熊本の刃物工房（Hinokuni）",
     userImgSrc: "hinokuni.webp",
-    imgSrc: "HINOKUNI_URUSHI_KNIFE.avif",
+    imgSrc: "hinokuni.webp",
     tag: "包丁 / 伝統工芸",
     title: "Hinokuni Urushi Knife｜受け継がれた刀鍛冶の技を、世界のキッチンへ",
     description:
