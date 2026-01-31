@@ -89,7 +89,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   // Karatto Plus
   ybb: {
     userName: "カラッとプラス（ブランド）",
-    userImgSrc: "KARATTO_PLUS.avif",
+    userImgSrc: "KARATTO_PLUS.png",
     tag: "シューケア / デバイス",
     title: "Karatto Plus | 次世代シューズ用除湿＆消臭デバイス",
     description:
