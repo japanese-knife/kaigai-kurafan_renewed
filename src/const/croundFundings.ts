@@ -29,7 +29,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   // MATOU Kimono Travel Hoodie
   urushi: {
     userName: "MATOU（製作者チーム）",
-    userImgSrc: "MATOU.jpg",
+    userImgSrc: "matou.jpg",
     tag: "アパレル / トラベル",
     title: "MATOU Kimono Travel Hoodie – 日本製ハンドメイド トラベルフーディ",
     imgSrc: "MATOU_HOODIE.avif",
