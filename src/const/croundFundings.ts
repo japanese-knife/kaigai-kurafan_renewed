@@ -107,7 +107,7 @@ export const CROUD_FUNDINGS_DATA: DataObjectType = {
   },
 
   // KNIGHT FANG
-  macbook: {
+  fujiko: {
     userName: "KNIGHT FANG（開発チーム）",
     userImgSrc: "KNIGHT_FANG.avif",
     tag: "EDCナイフ / チタン",
