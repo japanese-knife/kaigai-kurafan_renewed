@@ -11,17 +11,17 @@ export default function manifest(): MetadataRoute.Manifest {
     theme_color: "#000000",
     icons: [
       {
-        src: "/favicon.ico",
+        src: "/kaigai-kurafan.png",
         sizes: "64x64 32x32 24x24 16x16",
         type: "image/x-icon"
       },
       {
-        src: "/favicon.ico",
+        src: "/kaigai-kurafan.png",
         type: "image/x-icon",
         sizes: "192x192"
       },
       {
-        src: "/favicon.ico",
+        src: "/kaigai-kurafan.png",
         type: "image/x-icon",
         sizes: "512x512"
       }
